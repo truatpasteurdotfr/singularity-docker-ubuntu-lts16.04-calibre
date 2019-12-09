@@ -10,7 +10,7 @@ singularity pull calibre.sif library://tru/default/calibre
 
 Run it with:
 ```
-singularity exec -B /run  calibre.sif  bash -c "LC_ALL=C /opt/calibre/calibre $@"
+singularity exec -B /run  calibre.sif  bash -c "LC_ALL=C /opt/calibre/calibre"
 ```
 
 This is not an official/supported version from upstream (https://calibre-ebook.com).
