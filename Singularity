@@ -15,7 +15,7 @@ apt-get -y install xzdec curl libx11-dev libgl1-mesa-dev python-pyqt5 libnss3
 
 mkdir -p /opt/calibre
 curl \
-https://download.calibre-ebook.com/4.5.0/calibre-4.5.0-x86_64.txz \
+https://download.calibre-ebook.com/4.9.1/calibre-4.9.1-x86_64.txz \
 | xzdec | tar -C /opt/calibre -xf - && /opt/calibre/calibre_postinstall
 
 %runscript
